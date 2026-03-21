@@ -1,4 +1,4 @@
-## Confused ?
+## Confused about graph terminology ?
 
 ```
 vertex - node / circle
