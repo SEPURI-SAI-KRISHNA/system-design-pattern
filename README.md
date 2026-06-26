@@ -1,81 +1,24 @@
-# System Design Patterns 🏗️
+# 🏗️ System Design Patterns
 
-A practical, interview-oriented collection of **system design patterns** used to build **scalable, reliable, and high-performance distributed systems**.
+> An interview-oriented collection of patterns for building scalable, reliable, high-performance distributed systems.
 
-This repository focuses on **why a pattern exists**, **when to use it**, **trade-offs**, and **real-world examples** — not just definitions.
+![System Design](https://img.shields.io/badge/System%20Design-2C3E50?style=flat-square&logo=diagramsdotnet&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Neo4j](https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white)
 
----
+A practical collection of **system design patterns** — focused on **why a pattern exists, when to use it, its trade-offs, and real-world examples**, not just definitions.
 
-## 📌 Why this Repository?
+## 📌 Why this repo?
 
-Most system design resources:
-- Explain patterns in isolation  
-- Miss real-world trade-offs  
-- Don’t connect patterns to **interview decision-making**
+Most resources explain patterns in isolation. This one connects them to the **real problems they solve** and the **costs they carry**, so you can reach for the right one under pressure.
 
-This repo is built to:
-- Help you **think like a senior engineer**
-- Improve **system design interviews**
-- Serve as a **quick reference** during architecture discussions
+## 📂 Structure
 
----
-
-## 🧠 What is a System Design Pattern?
-
-A system design pattern is a **reusable solution** to a **recurring architectural problem** in distributed systems, such as:
-- Scaling reads/writes
-- Handling failures
-- Reducing latency
-- Managing consistency
-- Controlling traffic
-
-Patterns are **not frameworks** — they are **thinking tools**.
+- [`Design-Patterns/`](Design-Patterns/) — core distributed-systems patterns
+- [`kafka-patterns/`](kafka-patterns/) — streaming & event-driven patterns
+- [`neo4j-patterns/`](neo4j-patterns/) — graph data patterns
+- [`Languages/`](Languages/) — language-specific notes
 
 ---
 
-## 📚 Patterns Covered
-
-### 🔹 Scalability Patterns
-- Horizontal Scaling
-- Vertical Scaling
-- Sharding (Data Partitioning)
-- Consistent Hashing
-- Read Replicas
-- Caching (Client, CDN, Server-side)
-
-### 🔹 Reliability & Fault Tolerance
-- Replication
-- Leader–Follower
-- Heartbeat
-- Failover
-- Circuit Breaker
-- Bulkhead Pattern
-
-### 🔹 Performance & Latency
-- Caching Strategies
-- Load Balancing Algorithms
-- Asynchronous Processing
-- Batching
-- Backpressure
-
-### 🔹 Data Management
-- CQRS (Command Query Responsibility Segregation)
-- Event Sourcing
-- Two-Phase Commit (2PC)
-- Saga Pattern
-- Idempotency
-
-### 🔹 Communication Patterns
-- Request–Response
-- Pub/Sub
-- Message Queues
-- Streaming (Kafka-style)
-- WebSockets
-
-### 🔹 Consistency Patterns
-- Strong vs Eventual Consistency
-- Quorum Reads/Writes
-- Read-Your-Writes
-- Write-Through vs Write-Back Cache
-
----
+<sub>📂 Part of my engineering notes — explore more at **[sepuri-sai-krishna.pages.dev](https://sepuri-sai-krishna.pages.dev)** · by [Sepuri Sai Krishna](https://github.com/SEPURI-SAI-KRISHNA)</sub>
